@@ -1,0 +1,20 @@
+.gradient {
+  background: linear-gradient(120deg, #ffd700, #780eff);
+  color: #fff;
+}
+
+.btn-check:checked + .btn-outline-primary:focus, .btn-check:active + .btn-outline-primary:focus, .btn-outline-primary:active:focus, .btn-outline-primary.active:focus, .btn-outline-primary.dropdown-toggle.show:focus {
+  box-shadow: 0 0 0 .25rem rgba(178,14,255,0.5);
+}
+
+.btn-outline-primary, .btn-primary {
+  color: #780eff;
+  background-color: #ffffff;
+  border-color: #950eff;
+}
+
+.text-primary {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+}
+
